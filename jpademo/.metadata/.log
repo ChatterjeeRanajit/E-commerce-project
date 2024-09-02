@@ -1,0 +1,217 @@
+!SESSION 2024-06-18 17:14:44.095 -----------------------------------------------
+eclipse.buildId=4.21.0.202312011804
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-18 17:15:04.976
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2024-06-18 17:20:48.317
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-18 17:20:48.317
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-06-18 17:21:38.976
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Debarati'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.ide.eclipse.boot.wizard 4 0 2024-06-18 17:23:00.628
+!MESSAGE A content provider for class org.springframework.ide.eclipse.boot.wizard.content.GettingStartedGuide is already registered
+!STACK 0
+java.lang.IllegalArgumentException: A content provider for class org.springframework.ide.eclipse.boot.wizard.content.GettingStartedGuide is already registered
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:68)
+	at org.springframework.ide.eclipse.boot.wizard.content.ContentManager.register(ContentManager.java:56)
+	at org.springframework.ide.eclipse.boot.wizard.content.GettingStartedContent.registerAllWithStsProperties(GettingStartedContent.java:125)
+	at org.springframework.ide.eclipse.boot.wizard.content.GettingStartedContent.registerAllContentProviders(GettingStartedContent.java:111)
+	at org.springframework.ide.eclipse.boot.wizard.content.GettingStartedContent.prefetch(GettingStartedContent.java:67)
+	at org.springframework.ide.eclipse.boot.wizard.content.ContentManager.lambda$0(ContentManager.java:186)
+	at org.springsource.ide.eclipse.commons.frameworks.core.util.JobUtil$4$1.run(JobUtil.java:132)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.wizard 4 0 2024-06-18 17:23:00.635
+!MESSAGE A content provider for class org.springframework.ide.eclipse.boot.wizard.content.GettingStartedGuide is already registered
+!STACK 0
+java.lang.IllegalArgumentException: A content provider for class org.springframework.ide.eclipse.boot.wizard.content.GettingStartedGuide is already registered
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:68)
+	at org.springframework.ide.eclipse.boot.wizard.content.ContentManager.register(ContentManager.java:56)
+	at org.springframework.ide.eclipse.boot.wizard.content.GettingStartedContent.registerAllWithStsProperties(GettingStartedContent.java:125)
+	at org.springframework.ide.eclipse.boot.wizard.content.GettingStartedContent.registerAllContentProviders(GettingStartedContent.java:111)
+	at org.springframework.ide.eclipse.boot.wizard.content.GettingStartedContent.prefetch(GettingStartedContent.java:67)
+	at org.springframework.ide.eclipse.boot.wizard.content.ContentManager.lambda$0(ContentManager.java:186)
+	at org.springsource.ide.eclipse.commons.frameworks.core.util.JobUtil$4$1.run(JobUtil.java:132)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.wizard 4 0 2024-06-18 17:23:00.638
+!MESSAGE A content provider for class org.springframework.ide.eclipse.boot.wizard.content.ReferenceApp is already registered
+!STACK 0
+java.lang.IllegalArgumentException: A content provider for class org.springframework.ide.eclipse.boot.wizard.content.ReferenceApp is already registered
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:68)
+	at org.springframework.ide.eclipse.boot.wizard.content.ContentManager.register(ContentManager.java:56)
+	at org.springframework.ide.eclipse.boot.wizard.content.GettingStartedContent.registerAllWithStsProperties(GettingStartedContent.java:177)
+	at org.springframework.ide.eclipse.boot.wizard.content.GettingStartedContent.registerAllContentProviders(GettingStartedContent.java:111)
+	at org.springframework.ide.eclipse.boot.wizard.content.GettingStartedContent.prefetch(GettingStartedContent.java:67)
+	at org.springframework.ide.eclipse.boot.wizard.content.ContentManager.lambda$0(ContentManager.java:186)
+	at org.springsource.ide.eclipse.commons.frameworks.core.util.JobUtil$4$1.run(JobUtil.java:132)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.wizard 4 0 2024-06-18 17:23:00.651
+!MESSAGE A content provider for class org.springframework.ide.eclipse.boot.wizard.content.ReferenceApp is already registered
+!STACK 0
+java.lang.IllegalArgumentException: A content provider for class org.springframework.ide.eclipse.boot.wizard.content.ReferenceApp is already registered
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:68)
+	at org.springframework.ide.eclipse.boot.wizard.content.ContentManager.register(ContentManager.java:56)
+	at org.springframework.ide.eclipse.boot.wizard.content.GettingStartedContent.registerAllWithStsProperties(GettingStartedContent.java:177)
+	at org.springframework.ide.eclipse.boot.wizard.content.GettingStartedContent.registerAllContentProviders(GettingStartedContent.java:111)
+	at org.springframework.ide.eclipse.boot.wizard.content.GettingStartedContent.prefetch(GettingStartedContent.java:67)
+	at org.springframework.ide.eclipse.boot.wizard.content.ContentManager.lambda$0(ContentManager.java:186)
+	at org.springsource.ide.eclipse.commons.frameworks.core.util.JobUtil$4$1.run(JobUtil.java:132)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.core.ui 4 0 2024-06-18 17:23:32.305
+!MESSAGE OperationCanceledException
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.core.runtime.SubMonitor$RootInfo.checkForCancellation(SubMonitor.java:317)
+	at org.eclipse.core.runtime.SubMonitor.split(SubMonitor.java:1127)
+	at org.eclipse.core.runtime.SubMonitor.split(SubMonitor.java:1021)
+	at org.eclipse.m2e.core.project.LocalProjectScanner.run(LocalProjectScanner.java:65)
+	at org.eclipse.m2e.core.ui.internal.project.MavenProjectConfigurator.findConfigurableLocations(MavenProjectConfigurator.java:196)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.getImportProposals(SmartImportJob.java:676)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$17.run(SmartImportRootWizardPage.java:855)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2024-06-18 17:25:14.727
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-06-18 17:25:14.728
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:35:19.002
+!MESSAGE Classpath changed for project: a1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:35:33.442
+!MESSAGE Classpath changed for project: Ecom
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:35:33.451
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:40:16.254
+!MESSAGE Classpath changed for project: Ecom
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:40:16.270
+!MESSAGE Boot project ADDED: Ecom
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:40:16.273
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:40:16.795
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-18 17:40:19.632
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\Debarati\Downloads\sts-4.21.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javaw.exe
+-cp
+C:\Users\Debarati\Downloads\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Debarati\Downloads\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Debarati\Downloads\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/Debarati/Documents/workspace-spring-tool-suite-4-4.21.0.RELEASE/jpademo/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1718712619625
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:40:19.634
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-06-18 17:40:21.113
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 5152
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:40:52.371
+!MESSAGE Classpath changed for project: a1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:40:52.378
+!MESSAGE Boot project ADDED: a1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:41:09.124
+!MESSAGE Classpath changed for project: Ecom
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:41:09.158
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:41:09.526
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:41:09.528
+!MESSAGE Classpath changed for project: a1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:41:35.284
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:42:28.412
+!MESSAGE Classpath changed for project: Ecom
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:42:57.366
+!MESSAGE Classpath changed for project: a1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:43:18.793
+!MESSAGE Classpath changed for project: a1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:43:32.568
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-18 17:43:38.117
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-06-18 17:48:19.800
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
